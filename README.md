@@ -1,4 +1,4 @@
-# yolov8
+# cli_yolo_v8
 
 # USE PYTHON version 3.9 in order to EXPORT the model as ".torchscript"
 - IF YOU ENCOUNTER THIS ERROR: `Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools"`: https://visualstudio.microsoft.com/visual-cpp-build-tools/ 
@@ -58,5 +58,3 @@ dataset
 ```
 pip freeze > requirements.txt
 ```
-"# cli_yolo_v8" 
-# cli_yolo_v8
