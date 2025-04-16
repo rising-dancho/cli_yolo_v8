@@ -41,7 +41,7 @@ yolo mode=train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640 patience=35
 ```
 
 ### convert to convert to torchscript 
-- (make sure you are in the correct folder location. and venv is activated)
+- (make sure you replace `[location_of_best_model]` with the correct location of that model you just trained with the code above)
 ```
 yolo mode=export model="location_of_best_model" format=torchscript optimize
 ```
